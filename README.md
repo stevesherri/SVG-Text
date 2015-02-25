@@ -1,2 +1,10 @@
-This creates a FabricJS canvas, loads an SVG containing text and places each object on the canvas.  
-Since text is stored in the SVG as a Text object it cannot be edited
+# SVG-IText
+
+This simple page loads an SVG and displays it on the canvas.  Each object is editable/draggable.  For reference it also contains an image of how the SVG displays in IE.
+
+### ISSUES
+- Line breaks not rendering to FabricJS canvas
+- Text doesn't display in correct font until first mousedown/interaction
+- When IText is created using the left/top positions from SVG text the text is positioned offscreen
+
+
